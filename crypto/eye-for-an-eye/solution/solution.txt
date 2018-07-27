@@ -1,0 +1,5 @@
+The message can be decoded using a Snellen Chart. By looking in the row of the first digit, and the column of the second digit, the decoded message reads,
+
+elf looted cold ded ooze
+
+flag{elf_looted_cold_ded_ooze}

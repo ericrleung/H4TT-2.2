@@ -1,0 +1,22 @@
+Title: Eye For An Eye
+Description:
+
+-----------------
+My friend 'Nell is dubious
+Although my vision is not perfect
+I'll be keeping my eye on him
+
+My question to you,
+What did the elf do?
+
+1,1|4,1|2,1
+4,1|3,2|7,4|9,8|6,1|4,4
+5,3|3,2|11,5|5,5
+7,7|9,2|4,4
+3,2|7,4|11,3|1,1
+
+Flag Format:
+flag{words_lower_case}
+-----------------
+
+Author: Forest Anderson
