@@ -1,0 +1,10 @@
+Title: needle in a haystack
+
+Description: 
+nc 0.0.0.0 6050
+
+Special instructions:
+Start challenge.py on a server.
+The above ip should be changed to the server ip.
+
+Author: Mathieu Robinson
