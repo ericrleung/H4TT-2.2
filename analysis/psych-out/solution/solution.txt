@@ -1,0 +1,5 @@
+By studying the headers, you can see that it is not actually a JPG but rather a PNG.
+If you modify the header to say PNG instead of JPG it will display correctly.
+Changing the file extension is also recommended.
+
+flag{Th4t's_not_4_JPG}

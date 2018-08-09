@@ -1,0 +1,15 @@
+The challenge uses AES in ECB mode. This means that the same key is reused. So the same coloured pixels will
+still look similar to one another. This means that if you can make the file back into an image you will be
+able to see the shame of the image (more than enough for white text on a black background in this case).
+
+To make the file into a readable file, you will want to open the file an a text editor and add to the top
+of the file:
+P6
+1000 500
+255
+<rest of file here>
+
+Viewing the file as an image now will result in a sufficiently clear image to read the flag. This is all
+done without knowing the key that was used to encrypt in the first place.
+
+flag{KEYLESS-AES}

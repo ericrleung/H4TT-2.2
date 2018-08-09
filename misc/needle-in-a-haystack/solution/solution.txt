@@ -1,0 +1,4 @@
+The flag gets spit into the garbage avery rand(15,30) seconds.
+pipe the output to grep.
+
+flag{1_b3t_u_us3d_g00gle_tr4nslate}
