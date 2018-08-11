@@ -1,0 +1,7 @@
+Using the documentation for Reptile
+guess the PID (incriment through a bunch)
+kill -49 1337
+--OR--
+use the documentation to notice /reptile and go there to reverse secret2 (or copy it to ~/ and run it on it and repeat the process that was done with Secret Service solution/ dump memory and search it)
+
+flag{h1dd3n__pr0c3ss_1s_d33p}

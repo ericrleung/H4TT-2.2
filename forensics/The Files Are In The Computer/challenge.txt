@@ -1,0 +1,15 @@
+Title: The Files Are In The Computer
+Description:
+
+-----------------
+Catagory Description:
+We were able to copy one of E Corp's servers to this VM.
+Looks like someone else already gained access to the machine. See if you can figure out if they left anything there.
+To run it: ssh ecorp@52.24.114.70
+We know the username is ecorp. Not sure what the password is; but if they got pwned already, it can't be that hard to guess.
+
+Challenge Description:
+file1.txt
+-----------------
+
+Author: David Petrasovic & Adam Steinbok

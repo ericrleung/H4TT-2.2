@@ -1,0 +1,7 @@
+Searching the internet for f0rb1dd3n will show a user on GitHub.
+This user has a repo called reptile. Look at the documentation for that.
+Run the following:
+kill -51 0
+cat file2.txt
+
+flag{d1g_d33p_4_th4t_h1dd3n_f1l3}

@@ -1,0 +1,4 @@
+Guess the password: admin
+cat file1.txt
+
+flag{pl34s3_ch4ng3_y0ur_p@ssw0rd}

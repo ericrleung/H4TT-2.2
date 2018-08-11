@@ -1,0 +1,19 @@
+look at the running processes:
+ps -aux | grep secret
+
+
+dump the contents of it's memory
+vi dump-all-memory-of-pid.sh
+"
+#!/bin/bash
+
+grep rw-p /proc/$1/maps | sed -n 's/^\([0-9a-f]*\)-\([0-9a-f]*\) .*$/\1 \2/p' | while read start stop; do gdb --batch --pid $1 -ex "dump memory $1-$start-$stop.dump 0x$start 0x$stop"; done
+"
+sudo ./dump-all-memory-of-pid.sh 1337
+
+
+search for the flag in the text files with:
+ls -1 ./ | xargs strings | grep flag
+
+
+flag{st1ck_t0_th3_pr0c3ss}
