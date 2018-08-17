@@ -1,0 +1,12 @@
+Title: Who needs Root when you have Metadaddy
+Description:
+
+-----------------
+http://35.184.103.22/get_url/new
+
+https://hackerone.com/reports/341876
+-----------------
+
+Special instructions: None
+
+Author: Jack McCracken

@@ -1,0 +1,12 @@
+Title: Home Is Where The Host Is Part 2
+Description:
+
+-----------------
+http://178.128.193.129:8080/console
+
+You will need to solve "Home Is Where The Host Is Part 1" first
+-----------------
+
+Special instructions: None
+
+Author: Jack McCracken
