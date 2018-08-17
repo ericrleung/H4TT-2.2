@@ -1,0 +1,3 @@
+The header of the zip file is corrupt. The File name length has been changed. To fix it, change the 2 bytes to be 08 00.
+
+flag{e4sy_fix_f0r_m3}
