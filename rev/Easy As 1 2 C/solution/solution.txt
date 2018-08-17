@@ -1,0 +1,3 @@
+The program is rearranging the string "-{}034abfghlnrst" into the flag. The code for the program can be found in do_I_know_the_flag.c When the program is followed, it shows,
+
+flag{f4st3r-s0rt-th4n-b0g0}
