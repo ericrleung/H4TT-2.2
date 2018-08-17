@@ -1,0 +1,6 @@
+This is a brute force problem.
+Write a script that recursively unzips and searches file.txt for the flag.
+You will also need to blacklist the fake flags from your search.
+Many extremely unhelpful hints will be thrown at you along the way for you to (hopefully) ignore.
+
+flag{i_b3t_y0u_pa1d_4_w1nr4r}
