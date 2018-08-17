@@ -1,0 +1,3 @@
+The text file is in jsFuck. Once it is translated to readable js, you can see the array that is trying to be bogosorted, and translate it from ascii.
+
+flag{s4v3d_my_br4in_fr0m_b0g0}

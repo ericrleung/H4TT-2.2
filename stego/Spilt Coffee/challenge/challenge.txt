@@ -1,0 +1,10 @@
+Title: Spilt Coffee
+Description:
+
+-----------------
+Oh no! I spilled some coffee on the scripture, and now it's screwed! See if you can sort it out.
+-----------------
+
+Special instructions: Include the file coffee_scripture_screwed
+
+Author: Forest Anderson
