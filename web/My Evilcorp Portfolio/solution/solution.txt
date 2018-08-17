@@ -1,0 +1,3 @@
+In the CSS file, the flag can be found as a style.
+
+flag{hiding_in_th3_b4ckgr0und}
