@@ -1,7 +1,7 @@
 Title: Zippity Zoop Zop Zip
 Description:
 
-Gather all the leafs to make a tree
+The flag is in file.txt
 
 Special Instructions:
 
