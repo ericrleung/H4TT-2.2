@@ -1,0 +1,3 @@
+scan barcode with: https://online-barcode-reader.inliteresearch.com/
+
+flag{w4tch_wh4t_y0u_p0st-onl1n3}
