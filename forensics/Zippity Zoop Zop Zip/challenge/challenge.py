@@ -43,15 +43,20 @@ class zipTree:
                     "Free_Points_This_Way",
                     ""]
     fileName = "file.txt"
+    compressionTypes = ["zip",
+                        "tar",
+                        "gztar",
+                        "bztar",
+                        ]
 
-    def __init__(self, levels=3, foldersPerLevel=3):
+    def __init__(self, levels=8, foldersPerLevel=3):
         self.levels = levels
         self.foldersPerLevel = foldersPerLevel
 
     def generateTree(self):
         allBaseZips = self._generate_all_base_zips()
         while self.levels:
-            allBaseZips = self._generate_tree_helper(allBaseZips)
+            allBaseZips = self._generate_tree_helper(allBaseZips) # zips "foldersPerLevel" zip files into a new zip with a file.txt for all current zips
             self.levels -= 1
     
     def _generate_all_base_zips(self):
@@ -75,8 +80,8 @@ class zipTree:
                 fileFiller = insertFlag
             f.write(fileFiller)
 
-        self._zip_folder(folderName)
-        return folderName+'.zip'
+        zipName = self._zip_folder(folderName)
+        return zipName
 
     def _generate_tree_helper(self, allZipsInDir):
         zipsForNextLevel = []
@@ -89,14 +94,17 @@ class zipTree:
         return zipsForNextLevel
 
     def _zip_folder(self, folderName):
-        zipf = zipfile.ZipFile(folderName+'.zip', 'w')
-        for _, _, files in os.walk(folderName):
-            for f in files:
-                # print(f)
-                zipf.write(folderName + '/' + f)
-        zipf.close()
+
+        randomCompressionType = self.compressionTypes[random.randint(0,len(self.compressionTypes)-1)] # Choose random compression type
+        shutil.make_archive(folderName, randomCompressionType, folderName)
+        typeToExtension = {'gztar': 'tar.gz',
+                            'bztar': 'tar.bz2'}
+        if randomCompressionType in typeToExtension:
+            extension = typeToExtension[randomCompressionType]
+        else:
+            extension = randomCompressionType
         shutil.rmtree(folderName) # Remove folder (keep the zip)
-        return folderName+'.zip'
+        return folderName+'.'+extension
 
     def _generate_random_folder(self):
         folderName = self.folderNames[random.randint(0,len(self.folderNames)-1)] # Choose random folder name
@@ -123,5 +131,6 @@ def main():
     myTree = zipTree(levels=10, foldersPerLevel=3)
     myTree.generateTree()
 
+    
 if __name__ == '__main__':
     main()
