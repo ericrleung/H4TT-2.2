@@ -1,0 +1,12 @@
+{
+    "title": "Too Many VPNs These Days",
+    "category": "Stego",
+    "description": "Got to find a away to filter them down.",
+    "link": "",
+    "points": "40",
+    "flag": "flag{W3lc0m3-2-Exh1f1t-A}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+    ]
+  }

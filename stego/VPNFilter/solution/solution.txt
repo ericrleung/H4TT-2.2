@@ -1,0 +1,6 @@
+Step 1: Upload the file to http://exifdata.com/
+Step 2: Look at Latitude and Longitude; they are an IP address
+Step 3: Get the port number from the exif comment (if your exif tool doesnt show you that, use: strings challenge.png and it will be at the end after tEXtComment). You can tell it is a port because it starts a ":"
+Step 4: Go to that IP Address with that port
+
+flag{W3lc0m3-2-Exh1f1t-A}

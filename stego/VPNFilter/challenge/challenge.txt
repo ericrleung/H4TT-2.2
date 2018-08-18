@@ -1,0 +1,14 @@
+Title: Too Many VPNs These Days
+Description:
+
+------------------
+Got to find a away to filter them down
+------------------
+
+Specail instrucitons: Have a server running with flag at the root level
+Put the IP address of the server into the exif data like so:
+exiftool -XMP:GPSLatitude="192.168" -XMP:GPSLongitude="1.1" -GPSLatitudeRef="North" -GPSLongitudeRef="West" -Coment=':1337' image.jpg
+where the address is 192.168.1.1:1337 in this example
+
+Author: Dave Petrasovic
+
