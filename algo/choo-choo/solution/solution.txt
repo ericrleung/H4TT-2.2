@@ -1,0 +1,3 @@
+The message can be decoded with the rail fence cipher with four levels.
+
+flag{pr4is3_th3_c0smic_f0ur}

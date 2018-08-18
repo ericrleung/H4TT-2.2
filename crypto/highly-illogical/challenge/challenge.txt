@@ -1,0 +1,10 @@
+Title: <Challenge Title>
+Description:
+
+-----------------
+<Description goes here>
+-----------------
+
+Special instructions: <Special instructions for included files>
+
+Author: <Author name>
