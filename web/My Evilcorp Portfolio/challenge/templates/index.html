@@ -11,11 +11,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- include css -->
-	<link href="assets/css/style.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/css/style.css') }}" rel="stylesheet">
   <!-- include meter JS script -->
-  <script src="assets/js/meter.js"></script>
+  <script src="{{ url_for('static', filename='assets/js/meter.js')}}"></script>
   <!-- include scrollspy JS script -->
-  <script src="assets/js/scrollspy.js"></script>
+  <script src="{{ url_for('static', filename='assets/js/scrollspy.js')}}"></script>
 	<title>Forest Anderson</title>
 </head>
 <body data-spy="scroll" data-target="#main-navbar" data-offset="58">
@@ -58,7 +58,7 @@
       <hr>
       <div class="row justify-content-around align-items-center">
         <div class="profile-background col-lg-4">
-          <img src="assets/images/forest/profile2.jpg" alt="" class="profile-image">
+          <img src="{{ url_for('static', filename='assets/images/forest/profile2.jpg')}}" alt="" class="profile-image">
         </div>
         <div class="bio col-lg-8">
           <p>
@@ -96,19 +96,19 @@
       <div class="row">
         <div class="col-md-12 col-lg-4">
           <a href="mailto:forestkzanderson@gmail.com">
-            <img src="assets/contact/at.svg">
+            <img src="{{ url_for('static', filename='assets/contact/at.svg')}}">
             <span>forestkzanderson@gmail.com</span>
           </a>
         </div>
         <div class="col-md-12 col-lg-4">
           <a href="https://github.com/AngelOnFira" target="_blank">
-            <img src="assets/contact/github-square.svg">
+            <img src="{{ url_for('static', filename='assets/contact/github-square.svg')}}">
             <span>github.com/AngelOnFira</span>
           </a>
         </div>
         <div class="col-md-12 col-lg-4">
           <a href="https://www.linkedin.com/in/forest-anderson" target="_blank">
-            <img src="assets/contact/linkedin-square.svg">
+            <img src="{{ url_for('static', filename='assets/contact/linkedin-square.svg')}}">
             <span>linkedin.com/in/forest-anderson</span>
           </a>
         </div>
