@@ -1,0 +1,3 @@
+Each layer of black and white represents a 0 or 1 respectivly. This can translate to ascii.
+
+flag{pyr4mid_0f_4scii}
