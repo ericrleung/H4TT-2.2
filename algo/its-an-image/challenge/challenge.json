@@ -1,13 +1,13 @@
 {
     "title": "It's An Image?",
     "category": "Algo",
-    "description": "",
+    "description": "https://drive.google.com/open?id=1oC-Hn8kIaQsYZTsIQv_KvY_fN_-li5G5",
     "link": "",
     "points": "60",
     "flag": "flag{th4t-d0nt-l00k-l1ke-JS}",
     "max_tries": "99",
     "active": "0",
     "files": [
-        "./challenge.txt"
+        "./challenge"
     ]
   }

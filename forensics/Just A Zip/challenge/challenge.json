@@ -1,7 +1,7 @@
 {
     "title": "Just A Zip",
     "category": "Forensics",
-    "description": "Looks like there is a flag inside!",
+    "description": "Looks like there is a flag inside!\n\nhttps://drive.google.com/open?id=1JdnU1doPgNjSmHLPCYVkQMiC78v0H34x",
     "link": "",
     "points": "35",
     "flag": "flag{e4sy_fix_f0r_m3}",
