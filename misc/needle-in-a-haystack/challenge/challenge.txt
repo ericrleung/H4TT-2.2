@@ -1,7 +1,7 @@
 Title: needle in a haystack
 
 Description: 
-nc 0.0.0.0 6050
+nc 35.155.157.83 6050
 
 Special instructions:
 Start challenge.py on a server.
