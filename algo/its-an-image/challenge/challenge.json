@@ -1,0 +1,13 @@
+{
+    "title": "It's An Image?",
+    "category": "Algo",
+    "description": "",
+    "link": "",
+    "points": "0",
+    "flag": "flag{th4t-d0nt-l00k-l1ke-JS}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+        "./challenge.txt"
+    ]
+  }

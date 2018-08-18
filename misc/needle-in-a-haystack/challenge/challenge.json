@@ -1,0 +1,12 @@
+{
+    "title": "Needle In A Haystack",
+    "category": "Misc",
+    "description": "nc 0.0.0.0 6050",
+    "link": "",
+    "points": "0",
+    "flag": "flag{1_b3t_u_us3d_g00gle_tr4nslate}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+    ]
+  }

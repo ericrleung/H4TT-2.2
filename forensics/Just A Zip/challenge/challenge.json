@@ -1,0 +1,13 @@
+{
+    "title": "Just A Zip",
+    "category": "Forensics",
+    "description": "Looks like there is a flag inside!",
+    "link": "",
+    "points": "0",
+    "flag": "flag{e4sy_fix_f0r_m3}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+      "./flag.zip"
+    ]
+  }

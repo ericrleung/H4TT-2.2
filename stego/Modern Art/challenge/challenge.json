@@ -1,0 +1,13 @@
+{
+    "title": "Modern Art",
+    "category": "Stego",
+    "description": "Is it going in or out?",
+    "link": "",
+    "points": "0",
+    "flag": "flag{pyr4mid_0f_4scii}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+      "./art.png"
+    ]
+  }

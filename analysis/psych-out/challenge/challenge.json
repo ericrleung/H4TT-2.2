@@ -1,0 +1,13 @@
+{
+    "title": "Psych Out",
+    "category": "Analysis",
+    "description": "The image won't load. Something must be wrong with it...",
+    "link": "",
+    "points": "0",
+    "flag": "flag{Th4t's_not_4_JPG}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+        "./challenge.jpg"
+    ]
+  }

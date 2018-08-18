@@ -1,0 +1,13 @@
+{
+    "title": "Zippity Zoop Zop Zip",
+    "category": "Forensics",
+    "description": "Gather all the leafs to make a tree",
+    "link": "",
+    "points": "0",
+    "flag": "flag{i_b3t_y0u_pa1d_4_w1nr4r}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+      "./zippity_zoop_zop_zip.zip"
+    ]
+  }

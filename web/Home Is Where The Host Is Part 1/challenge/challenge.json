@@ -1,0 +1,12 @@
+{
+    "title": "Home Is Where The Host Is Part 1",
+    "category": "Web",
+    "description": "http://178.128.193.129:8080/console",
+    "link": "",
+    "points": "0",
+    "flag": "flag{HttSeE_wHaT_i_MeaN}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+    ]
+  }

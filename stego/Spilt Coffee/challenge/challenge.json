@@ -1,0 +1,13 @@
+{
+    "title": "Spilt Coffee",
+    "category": "Stego",
+    "description": "Oh no! I spilled some coffee on the scripture, and now it's screwed! See if you can sort it out.",
+    "link": "",
+    "points": "0",
+    "flag": "flag{s4v3d_my_br4in_fr0m_b0g0}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+      "./coffee_scripture_screwed"
+    ]
+  }

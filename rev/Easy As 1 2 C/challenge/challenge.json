@@ -1,0 +1,13 @@
+{
+    "title": "Easy As 1 2 C",
+    "category": "Rev",
+    "description": "This program sure knows what the flag is!",
+    "link": "",
+    "points": "0",
+    "flag": "flag{f4st3r-s0rt-th4n-b0g0}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+      "./do_I_know_the_flag"
+    ]
+  }
