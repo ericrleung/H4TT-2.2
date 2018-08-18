@@ -1,9 +1,9 @@
 {
-    "title": "Access f0rb1dd3n",
+    "title": "Access f0rb1dd3n (Part 3)",
     "category": "Forensics",
     "description": "file2.txt",
     "link": "",
-    "points": "0",
+    "points": "70",
     "flag": "flag{d1g_d33p_4_th4t_h1dd3n_f1l3}",
     "max_tries": "99",
     "active": "0",

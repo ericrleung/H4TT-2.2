@@ -5,4 +5,4 @@ Description:
 file2.txt
 -----------------
 
-Author: David Petrasovic & Adam Steinbok
+Author: Dave Petrasovic & Adam Steinbok

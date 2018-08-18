@@ -1,0 +1,12 @@
+{
+    "title": "The Secret Service Is Watching You (Part 2)",
+    "category": "Forensics",
+    "description": "...",
+    "link": "",
+    "points": "50",
+    "flag": "flag{st1ck_t0_th3_pr0c3ss}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+    ]
+  }

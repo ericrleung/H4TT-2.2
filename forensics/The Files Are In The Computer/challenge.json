@@ -1,0 +1,12 @@
+{
+    "title": "The Files Are In The Computer (Part 1)",
+    "category": "Forensics",
+    "description": "We were able to copy one of E Corp's servers to this VM.\nLooks like someone else already gained access to the machine. See if you can figure out if they left anything there.\nTo run it: ssh ecorp@52.24.114.70\nWe know the username is ecorp. Not sure what the password is; but if they got pwned already, it can't be that hard to guess.\n\nfile1.txt",
+    "link": "",
+    "points": "10",
+    "flag": "flag{pl34s3_ch4ng3_y0ur_p@ssw0rd}",
+    "max_tries": "99",
+    "active": "0",
+    "files": [
+    ]
+  }

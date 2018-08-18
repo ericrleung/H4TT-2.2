@@ -5,4 +5,4 @@ Description:
 ...
 -----------------
 
-Author: David Petrasovic & Adam Steinbok
+Author: Dave Petrasovic & Adam Steinbok
