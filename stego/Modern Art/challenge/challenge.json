@@ -3,7 +3,7 @@
     "category": "Stego",
     "description": "Is it going in or out?",
     "link": "",
-    "points": "0",
+    "points": "30",
     "flag": "flag{pyr4mid_0f_4scii}",
     "max_tries": "99",
     "active": "0",

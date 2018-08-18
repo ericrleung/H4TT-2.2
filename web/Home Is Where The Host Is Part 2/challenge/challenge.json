@@ -3,7 +3,7 @@
     "category": "Web",
     "description": "http://178.128.193.129:8080/console\n\nYou will need to solve 'Home Is Where The Host Is Part 1' first",
     "link": "",
-    "points": "0",
+    "points": "70",
     "flag": "flag{eLisA-Is-AwsoME}",
     "max_tries": "99",
     "active": "0",

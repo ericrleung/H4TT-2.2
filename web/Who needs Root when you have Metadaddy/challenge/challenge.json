@@ -3,7 +3,7 @@
     "category": "Web",
     "description": "http://35.184.103.22/get_url/new\n\nhttps://hackerone.com/reports/341876",
     "link": "",
-    "points": "0",
+    "points": "120",
     "flag": "flag{yOu_4re_gOoD_wItH_k8S}",
     "max_tries": "99",
     "active": "0",

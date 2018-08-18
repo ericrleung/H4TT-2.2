@@ -3,7 +3,7 @@
     "category": "Rev",
     "description": "This program sure knows what the flag is!",
     "link": "",
-    "points": "0",
+    "points": "40",
     "flag": "flag{f4st3r-s0rt-th4n-b0g0}",
     "max_tries": "99",
     "active": "0",
