@@ -1,0 +1,21 @@
+https://github.com/f0rb1dd3n/Reptile
+
+
+find process PID ("secret" is the name of the process in this case):
+ps -aux | grep secret | awk '{print $2}' | head -n1
+
+dump memory and search for the flag:
+vi dump-all-memory-of-pid.sh
+"
+#!/bin/bash
+
+grep rw-p /proc/$1/maps | sed -n 's/^\([0-9a-f]*\)-\([0-9a-f]*\) .*$/\1 \2/p' | while read start stop; do gdb --batch --pid $1 -ex "dump memory $1-$start-$stop.dump 0x$start 0x$stop"; done
+"
+sudo ./dump-all-memory-of-pid.sh 1337
+ls -1 ./dump | xargs strings | grep flag
+
+kill a process:
+kill 1337
+
+clear history:
+cat /dev/null > ~/.bash_history && history -c && exit
