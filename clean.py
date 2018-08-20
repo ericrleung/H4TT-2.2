@@ -80,7 +80,7 @@ def BuildReadme(categories, output):
         for challenge in listChallPoints:
             thisChall = categories[thisCat][challenge[1]]
             output += "[" + thisChall['title'] + " | " + thisChall['points']
-            output += "](https://github.com/h4tt/" + H4TT_VERSION + "/tree/master/" + thisCat + "/" + thisChall['INTERNAL_PATH'].split("/")[2] + ")\n\n"
+            output += "](https://github.com/h4tt/H4TT-" + H4TT_VERSION + "/tree/master/" + thisCat + "/" + thisChall['INTERNAL_PATH'].split("/")[2] + ")\n\n"
 
     return output
 
