@@ -51,7 +51,7 @@ def ScrapeJSON(output):
     for file in jsons:
         with open(file) as thisJsonFile:
             data = json.load(thisJsonFile)
-            thisCat = data['category']
+            thisCat = data['category'].lower()
 
             if thisCat not in categories:
                 categories[thisCat] = {}
